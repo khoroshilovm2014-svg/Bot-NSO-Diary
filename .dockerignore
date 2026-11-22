@@ -1,0 +1,22 @@
+# Секреты и локальный мусор не должны попадать в образ и в публичный репозиторий.
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+tests/
+sql/
+scripts/
+.git/
+.gitignore
+README.md
+Dockerfile
+.dockerignore
+*.zip
+cloudflared
+cloudflared.log
+public_url.txt
